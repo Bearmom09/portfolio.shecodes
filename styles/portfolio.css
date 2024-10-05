@@ -1,9 +1,56 @@
+:root {
+    --background-color: rgb(27, 27, 27);
+    --facetype: "Roboto", sans-serif;
+}
+
+
+
 body  {
-    background: rgb(122, 76, 122);
+    background: var(--background-color);
 }
 
 h1 {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--background-color);
     font-weight: 700;
     font-style: normal;
+    font-size: 96px;
+    color: white;
+}
+
+h2 {
+     color: white;
+}
+
+p {
+    color: white;
+}
+
+.hero {
+    background: var(--background-color);
+    padding: 160px 20px;
+    text-align: center;
+}
+
+.hero p {
+    font-family: var(--facetype);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero h2 {
+    font-family: var(--facetype);
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 2;
+    color: whitesmoke;
+}
+
+.btn-primary {
+    background: whitesmoke;
+    border-radius: 4px;
+    color: var(--background-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
 }
