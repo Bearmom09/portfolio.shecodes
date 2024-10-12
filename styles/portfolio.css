@@ -1,36 +1,42 @@
 :root {
-    --background-color: rgb(27, 27, 27);
+    --primary-color: rgb(27, 27, 27);
     --facetype: "Roboto", sans-serif;
+    --button-color: rgb(70, 180, 171);
+    --secondary-color: rgb(238, 237, 237);
 }
 
 
 
 body  {
-    background: var(--background-color);
+    background: var(--primary-color);
 }
 
-
+h1, h2, h3, h4, h5, h6 {
+    color: var(--secondary-color);
+font-family: var(--facetype);
+font-weight: bold;
+}
 
 h1 {
-    font-family: var(--background-color);
-    font-weight: 700;
-    font-style: normal;
     font-size: 96px;
-    color: white;
+    line-height: 1.5;
 }
 
 h2 {
-     color: white;
+     font-size: 64px;
+
 }
 
 p {
-    color: white;
+   font-weight: normal;
+   font-size: 18px;
 }
 
 .hero {
-    background: var(--background-color);
+    background: var(--primary-color);
     padding: 160px 20px;
     text-align: center;
+    padding: 160px 20px;
 }
 
 
@@ -40,46 +46,50 @@ p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
+    color: var(--secondary-color);
+    opacity: 50%;
 }
 
 .hero h2 {
     font-family: var(--facetype);
     font-size: 24px;
     font-weight: normal;
-    line-height: 2;
-    color: whitesmoke;
+    line-height: 1.5;
+    color: var(--secondary-color);
 }
 
-.about-section {
+.content-container  {
     padding: 160px 20px;
 }
-.about-section h1 {
+
+.content-container h1 {
     font-size: 64px;
     line-height: 80px;
 }
 
-.about-section h2 {
+.content-container  h2 {
     font-size: 18px;
     font-family: var(--facetype);
 }
 
-.about-section-content {
+.content {
     margin: 30px;
 }
+
 .btn-primary {
-    background: whitesmoke;
+    background: var(--secondary-color);
     border-radius: 4px;
-    color: var(--background-color);
+    color: black;
     font-size: 18px;
     line-height: 27px;
-    padding: 12px 20px;
+    padding: 15px 30px;
 }
 
+btn
 .img {
     padding: 30px 0px;
 
 }
-
 
 @media (max-width: 900px) {
     h1 {
@@ -95,7 +105,7 @@ p {
         padding: 80px 20px;
     }
     
-    .about-section {
+    .content-container  {
     text-align: center;
     padding: 0;
 }
