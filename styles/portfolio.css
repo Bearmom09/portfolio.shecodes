@@ -126,6 +126,12 @@ a {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    border-color: var(--button-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--button-color);
+    border-color: var(--button-color);
 }
 
 btn
