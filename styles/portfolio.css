@@ -27,6 +27,10 @@ h2 {
 
 }
 
+h3 {
+    text-align: center;
+}
+
 p {
    font-weight: normal;
    font-size: 18px;
@@ -39,7 +43,10 @@ p {
     padding: 160px 20px;
 }
 
-
+a {
+    display: block;
+    text-align: center;
+}
 
 .hero p {
     font-family: var(--facetype);
